@@ -59,6 +59,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
   </VerticalNavGroup>
 
   <!-- 👉 Front Pages -->
+  <!--
   <VerticalNavGroup
     :item="{
       title: 'Front Pages',
@@ -101,8 +102,9 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
         href: 'https://demos.themeselection.com/materio-vuetify-vuejs-admin-template/demo-1/front-pages/help-center',
         target: '_blank',
       }"
-    />
-  </VerticalNavGroup>
+    /> 
+
+  </VerticalNavGroup>   --> 
 
   <!-- 👉 Apps & Pages -->
   <VerticalNavSectionTitle
@@ -110,6 +112,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
       heading: 'Apps & Pages',
     }"
   />
+  <!--
   <VerticalNavLink
     :item="{
       title: 'Permissions',
@@ -150,7 +153,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
       badgeClass: 'bg-light-primary text-primary',
     }"
   />
-
+-->
   <VerticalNavLink
     :item="{
       title: 'Account Settings',
